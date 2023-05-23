@@ -2,7 +2,6 @@
 ^https?:\/\/(ios|ios-beta)\.chat\.openai\.com\/backend-api\/(accounts\/check\/|models) url script-response-body ChatGPTPlusCrack.js
 [MITM]
 hostname = ios*.chat.openai.com
-*******************************/
 # ChatGPT Plus 解锁
 # hahaha
 var login_CheckIn = /https?:\/\/ios.chat.openai.com\/backend-api\/(accounts\/check\/|models)/
