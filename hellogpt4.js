@@ -4,6 +4,7 @@
 hostname = ios*.chat.openai.com
 *******************************/
 # ChatGPT Plus 解锁
+# hahaha
 var login_CheckIn = /https?:\/\/ios.chat.openai.com\/backend-api\/(accounts\/check\/|models)/
 var obj = JSON.parse($response.body);
 if (login_CheckIn.test($request.url)) {
